@@ -1,0 +1,61 @@
+.card-carro {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 320px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-carro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-carro img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.preco {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.botao {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.botao:hover {
+    background-color: #0056b3;
+}
