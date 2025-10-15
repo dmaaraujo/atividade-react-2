@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+.moldura {
+  background: #fafafa;
+  padding: 3rem;
+  margin: 4rem auto;
+  max-width: 1200px;
+  border-radius: 20px;
+  border: 3px solid #e0e0e0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.moldura .titulo-secao {
+  color: #1976d2;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}

@@ -1,61 +1,83 @@
+.container-carros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
 .card-carro {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 320px;
-    transition: transform 0.2s, box-shadow 0.2s;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 340px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
 }
 
 .card-carro:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.15);
 }
 
 .card-carro img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card-carro:hover img {
+  transform: scale(1.05);
 }
 
 .card-content {
-    padding: 20px;
+  padding: 1.5rem;
+  text-align: left;
 }
 
 .card-content h2 {
-    font-size: 1.5rem;
-    margin-top: 0;
-    margin-bottom: 10px;
+  font-size: 1.3rem;
+  margin: 0;
+  color: #222;
+  font-weight: 600;
 }
 
 .card-content p {
-    font-size: 1rem;
-    color: #666;
-    line-height: 1.5;
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 8px;
+  line-height: 1.6;
 }
 
 .card-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.2rem;
 }
 
 .preco {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #333;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e88e5;
 }
 
 .botao {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.2s;
+  background: #1e88e5;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
 }
 
 .botao:hover {
-    background-color: #0056b3;
+  background: #1565c0;
+  transform: scale(1.05);
 }
+

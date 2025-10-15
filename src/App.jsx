@@ -1,4 +1,3 @@
-// src/App.jsx
 import "./App.css";
 import MyComponent from "./components/MyComponent";
 import Title from "./components/Title"; 
@@ -42,7 +41,10 @@ function App() {
       <Title />
       <h1 className="title">Este não recebe título do CSS modules</h1>
 
-      <CarGallery></CarGallery>
+      <div className="secao-carros moldura">
+        <h2 className="titulo-secao">Carros Disponíveis</h2>
+        <CarGallery />
+      </div>
     </div>
   );
 }
